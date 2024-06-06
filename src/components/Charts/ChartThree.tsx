@@ -4,7 +4,7 @@ import ReactApexChart from "react-apexcharts";
 import DefaultSelectOption from "@/components/SelectOption/DefaultSelectOption";
 
 const ChartThree: React.FC = () => {
-  const series = [65, 34, 12, 56];
+  const series = [30, 30, 20, 12];
 
   const options: ApexOptions = {
     chart: {
@@ -28,7 +28,7 @@ const ChartThree: React.FC = () => {
             total: {
               show: true,
               showAlways: true,
-              label: "Visitors",
+              label: "Accuracy (%)",
               fontSize: "16px",
               fontWeight: "400",
             },
@@ -69,7 +69,7 @@ const ChartThree: React.FC = () => {
       <div className="mb-9 justify-between gap-4 sm:flex">
         <div>
           <h4 className="text-body-2xlg font-bold text-dark dark:text-white">
-            Used Devices
+            Sales Forecast Accuracy
           </h4>
         </div>
         <div>
@@ -89,8 +89,8 @@ const ChartThree: React.FC = () => {
             <div className="flex w-full items-center">
               <span className="mr-2 block h-3 w-full max-w-3 rounded-full bg-blue"></span>
               <p className="flex w-full justify-between text-body-sm font-medium text-dark dark:text-dark-6">
-                <span> Desktop </span>
-                <span> 65% </span>
+                <span> Dataset 1 </span>
+                <span> 95% </span>
               </p>
             </div>
           </div>
@@ -98,8 +98,8 @@ const ChartThree: React.FC = () => {
             <div className="flex w-full items-center">
               <span className="mr-2 block h-3 w-full max-w-3 rounded-full bg-blue-light"></span>
               <p className="flex w-full justify-between text-body-sm font-medium text-dark dark:text-dark-6">
-                <span> Tablet </span>
-                <span> 34% </span>
+                <span> Dataset 2 </span>
+                <span> 84% </span>
               </p>
             </div>
           </div>
@@ -107,8 +107,8 @@ const ChartThree: React.FC = () => {
             <div className="flex w-full items-center">
               <span className="mr-2 block h-3 w-full max-w-3 rounded-full bg-blue-light-2"></span>
               <p className="flex w-full justify-between text-body-sm font-medium text-dark dark:text-dark-6">
-                <span> Mobile </span>
-                <span> 45% </span>
+                <span> Dataset 3 </span>
+                <span> 75% </span>
               </p>
             </div>
           </div>
@@ -116,8 +116,8 @@ const ChartThree: React.FC = () => {
             <div className="flex w-full items-center">
               <span className="mr-2 block h-3 w-full max-w-3 rounded-full bg-blue-light-3"></span>
               <p className="flex w-full justify-between text-body-sm font-medium text-dark dark:text-dark-6">
-                <span> Unknown </span>
-                <span> 12% </span>
+                <span> Dataset 4 </span>
+                <span> 92% </span>
               </p>
             </div>
           </div>

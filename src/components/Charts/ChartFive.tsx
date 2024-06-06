@@ -5,7 +5,7 @@ import ReactApexChart from "react-apexcharts";
 const ChartFive: React.FC = () => {
   const series = [
     {
-      name: "Visitors",
+      name: "Accuracy",
       data: [168, 385, 201, 298, 187, 195, 291],
     },
   ];
