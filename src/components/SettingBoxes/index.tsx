@@ -52,8 +52,8 @@ const SettingBoxes = () => {
                         type="text"
                         name="fullName"
                         id="fullName"
-                        placeholder="Balaji Nagaraj Kumar"
-                        defaultValue="Balaji Nagaraj Kumar"
+                        placeholder="Kumarasaamy"
+                        defaultValue="Kumarasaamy"
                       />
                     </div>
                   </div>
@@ -126,8 +126,8 @@ const SettingBoxes = () => {
                       type="email"
                       name="emailAddress"
                       id="emailAddress"
-                      placeholder="balaji@gmail.com"
-                      defaultValue="balaji@gmail.com"
+                      placeholder="Kumarasaamy@gmail.com"
+                      defaultValue="Kumarasaamy@gmail.com"
                     />
                   </div>
                 </div>
@@ -168,8 +168,8 @@ const SettingBoxes = () => {
                       type="text"
                       name="Username"
                       id="Username"
-                      placeholder="Balaji Nagaraj Kumar"
-                      defaultValue="Balaji Nagaraj Kumar"
+                      placeholder="Kumarasaamy"
+                      defaultValue="Kumarasaamy"
                     />
                   </div>
                 </div>
@@ -243,7 +243,7 @@ const SettingBoxes = () => {
                   <div className="h-14 w-14 rounded-full">
                     <>
                       <Image
-                        src="/images/user/Balaji_Prof_PP.png"
+                        src="/images/user/user-04.png"
                         width={55}
                         height={55}
                         alt="User"

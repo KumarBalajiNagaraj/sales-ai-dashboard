@@ -89,7 +89,7 @@ const ChartThree: React.FC = () => {
             <div className="flex w-full items-center">
               <span className="mr-2 block h-3 w-full max-w-3 rounded-full bg-blue"></span>
               <p className="flex w-full justify-between text-body-sm font-medium text-dark dark:text-dark-6">
-                <span> Dataset 1 </span>
+                <span> Product 1 </span>
                 <span> 95% </span>
               </p>
             </div>
@@ -98,7 +98,7 @@ const ChartThree: React.FC = () => {
             <div className="flex w-full items-center">
               <span className="mr-2 block h-3 w-full max-w-3 rounded-full bg-blue-light"></span>
               <p className="flex w-full justify-between text-body-sm font-medium text-dark dark:text-dark-6">
-                <span> Dataset 2 </span>
+                <span> Product 2 </span>
                 <span> 84% </span>
               </p>
             </div>
@@ -107,7 +107,7 @@ const ChartThree: React.FC = () => {
             <div className="flex w-full items-center">
               <span className="mr-2 block h-3 w-full max-w-3 rounded-full bg-blue-light-2"></span>
               <p className="flex w-full justify-between text-body-sm font-medium text-dark dark:text-dark-6">
-                <span> Dataset 3 </span>
+                <span> Product 3 </span>
                 <span> 75% </span>
               </p>
             </div>
@@ -116,7 +116,7 @@ const ChartThree: React.FC = () => {
             <div className="flex w-full items-center">
               <span className="mr-2 block h-3 w-full max-w-3 rounded-full bg-blue-light-3"></span>
               <p className="flex w-full justify-between text-body-sm font-medium text-dark dark:text-dark-6">
-                <span> Dataset 4 </span>
+                <span> Product 4 </span>
                 <span> 92% </span>
               </p>
             </div>

@@ -56,7 +56,7 @@ const ProfileBox = () => {
           <div className="relative z-30 mx-auto -mt-22 h-30 w-full max-w-30 rounded-full bg-white/20 p-1 backdrop-blur sm:h-44 sm:max-w-[176px] sm:p-3">
             <div className="relative drop-shadow-2">
               <Image
-                src="/images/user/Balaji_Prof_PP.png"
+                src="/images/user/user-04.png"
                 width={160}
                 height={160}
                 className="overflow-hidden rounded-full"
@@ -95,7 +95,7 @@ const ProfileBox = () => {
           </div>
           <div className="mt-4">
             <h3 className="mb-1 text-heading-6 font-bold text-dark dark:text-white">
-              Balaji Nagaraj Kumar
+               Kumarasaamy
             </h3>
             <p className="font-medium">Ui/Ux Designer</p>
             <div className="mx-auto mb-5.5 mt-5 grid max-w-[370px] grid-cols-3 rounded-[5px] border border-stroke py-[9px] shadow-1 dark:border-dark-3 dark:bg-dark-2 dark:shadow-card">

@@ -17,7 +17,7 @@ const DropdownUser = () => {
           <Image
             width={112}
             height={112}
-            src="/images/user/Balaji_Prof_PP.png"
+            src="/images/user/user-04.png"
             style={{
               width: "auto",
               height: "auto",
@@ -28,7 +28,7 @@ const DropdownUser = () => {
         </span>
 
         <span className="flex items-center gap-2 font-medium text-dark dark:text-dark-6">
-          <span className="hidden lg:block"> Balaji Nagaraj Kumar</span>
+          <span className="hidden lg:block"> Kumarasaamy</span>
 
           <svg
             className={`fill-current duration-200 ease-in ${dropdownOpen && "rotate-180"}`}
@@ -58,7 +58,7 @@ const DropdownUser = () => {
               <Image
                 width={112}
                 height={112}
-                src="/images/user/Balaji_Prof_PP.png"
+                src="/images/user/user-04.png"
                 style={{
                   width: "auto",
                   height: "auto",
@@ -72,7 +72,7 @@ const DropdownUser = () => {
 
             <span className="block">
               <span className="block font-medium text-dark dark:text-white">
-                Balaji Nagaraj Kumar
+                 Kumarasaamy
               </span>
               <span className="block font-medium text-dark-5 dark:text-dark-6">
                 jonson@nextadmin.com
